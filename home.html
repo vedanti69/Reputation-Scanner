@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        input {
+        width: 10%;
+        }
+         h1 {text-align: center;}
+    </style>
+    <meta charset="UTF-8">
+    <title>Reputation Scanner</title>
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="static/antivirus.ico"/>
+</head>
+<body>
+<h1 style="background-color:DodgerBlue;">REPUTATION SCANNER</h1>
+
+
+<p> Reputation Scanner</p>
+<form method="post" action="{{url_for('search')}}">
+<input type="text" name="search" onclick="submit">
+    </form>
+
+</body>
+</html>
